@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Smart Library System</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f4f4f4;
+            color: #222;
+        }
+
+        header {
+            background: #1f3c88;
+            color: white;
+            text-align: center;
+            padding: 25px;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 28px;
+        }
+
+        header p {
+            margin: 8px 0 0;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 30px auto;
+            padding: 0 20px;
+        }
+
+        .section {
+            background: white;
+            padding: 25px;
+            margin-bottom: 25px;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+        }
+
+        .section h2 {
+            margin-top: 0;
+        }
+
+        .books {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .book {
+            flex: 1;
+            min-width: 200px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .book h3 {
+            margin-top: 0;
+        }
+
+        .status {
+            font-weight: bold;
+        }
+
+        .borrowed {
+            color: #c0392b;
+        }
+
+        .available {
+            color: #27ae60;
+        }
+
+        .returned {
+            color: #2980b9;
+        }
+
+        .history {
+            border-top: 1px solid #ddd;
+            padding-top: 15px;
+        }
+
+        .history p {
+            margin: 6px 0;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>SMART LIBRARY SYSTEM</h1>
+        <p>Automated Return Station</p>
+    </header>
+
+    <div class="container">
+
+        <div class="section">
+
+            <h2>BOOK STATUS</h2>
+
+            <div class="books">
+
+                <div class="book">
+                    <h3>Hello</h3>
+                    <p class="status borrowed">BORROWED</p>
+                </div>
+
+                <div class="book">
+                    <h3>World</h3>
+                    <p class="status available">AVAILABLE</p>
+                </div>
+
+                <div class="book">
+                    <h3>Goodbye</h3>
+                    <p class="status returned">RETURNED</p>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="section">
+
+            <h2>RETURN HISTORY</h2>
+
+            <div class="history">
+
+                <p><strong>Student 001</strong></p>
+
+                <p>Hello</p>
+
+                <p>Returned: Sept. 16, 2026</p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
