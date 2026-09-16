@@ -1,0 +1,20 @@
+    <p>
+        <b>World</b><br>
+        Status: AVAILABLE
+    </p>
+
+    <p>
+        <b>Goodbye</b><br>
+        Status: RETURNED
+    </p>
+
+    <hr>
+
+    <h2>Recent Activity</h2>
+
+    <p>
+        Student 001 returned "Hello"
+    </p>
+
+</body>
+</html>
